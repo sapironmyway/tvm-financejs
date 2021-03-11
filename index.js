@@ -304,7 +304,7 @@ Finance.prototype.IRR = function(values, guess) {
 
   var epslMax = 0.0000001;
   var step = 0.00001;
-  var iterMax = 39;
+  var iterMax = 50;
 
   //Check for valid inputs
   if (guess <= -1) {
